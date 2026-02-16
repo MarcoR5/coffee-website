@@ -2,7 +2,7 @@ Coffee Website Portfolio
 
 A simple portfolio project showcasing a coffee-themed website. Built to demonstrate web development skills and design capabilities.
 
-Project Overview
+--Project Overview--
 
 This project is a responsive coffee website designed as a portfolio piece. It includes sections for:
 
@@ -16,7 +16,7 @@ Contact form
 
 It is intended to demonstrate front-end skills, responsiveness, and basic interactivity.
 
-Features
+--Features--
 
 Fully responsive layout
 
@@ -28,7 +28,7 @@ Contact form (static or with basic front-end validation)
 
 Clean and minimal design
 
-Technologies Used
+--Technologies Used--
 
 HTML5
 
