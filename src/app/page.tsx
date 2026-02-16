@@ -12,7 +12,7 @@ export default function Home() {
       {/* header */}
       <div className="w-screen h-20 flex p-2 items-center justify-between text-black">
         <div className="flex items-center"> 
-          <Image className="ml-20" src="/logo.png" alt="Logo" height={30} width={40}/>
+          <Image className="ml-20" src="./logo.png" alt="Logo" height={30} width={40}/>
           <h1 className="text-3xl text-blue ml-2">coffeeroasters</h1>
         </div>
         <div className={`flex mr-20 space-x-5 text-gray-500 ${inter.className}`}>
