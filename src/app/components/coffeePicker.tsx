@@ -5,11 +5,11 @@ import { useState } from 'react';
 
 export default function CoffeePicker(){
 
-    const [prefrence, setPrevrence] = useState(null);
-    const [bean, setBean] = useState(null);
-    const [amount, setAmount] = useState(null);
-    const [grind, setGrind] = useState(null);
-    const [deliver, setDeliver] = useState(null);
+    const [prefrence, setPrevrence] = useState<string | null>(null);
+    const [bean, setBean] = useState<string | null>(null);
+const [amount, setAmount] = useState<string | null>(null);
+const [grind, setGrind] = useState<string | null>(null);
+const [deliver, setDeliver] = useState<string | null>(null);
    
 
     const [done, setDone] = useState(false);
