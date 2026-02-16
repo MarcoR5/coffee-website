@@ -2,7 +2,7 @@
 import { Inter } from 'next/font/google'
 import { useState } from 'react';
 export default function CoffeePicker(){
-    // const inter = Inter({ subsets: ['latin'] })
+    const inter = Inter({ subsets: ['latin'] })
 
     const [prefrence, setPrevrence] = useState(null);
     const [bean, setBean] = useState(null);
@@ -142,7 +142,7 @@ export default function CoffeePicker(){
                     
                         <div className="bg-[url(./img/bg2.png)] ... w-230 h-70 bg-no-repeat bg-cover bg-center mt-10 rounded-lg p-10">
                         <h3 className={`text-gray-300 text-lg ${inter.className}`}>ORDER SUMMARY</h3>
-                        <h2 className='text-4xl'>I drink my coffee as {prefrence}, with a {bean} type of bean. {amount} ground ala {grind}, sent to me  {deliver}</h2>                
+                        <h2 className='text-4xl'>"I drink my coffee as {prefrence}, with a {bean} type of bean. {amount} ground ala {grind}, sent to me  {deliver}"</h2>                
                     </div>
                    
                     
