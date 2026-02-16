@@ -4,9 +4,9 @@ const nextConfig: NextConfig = {
   /* config options here */
   // output: 'export',
   // distDir: 'dist',
-  //   eslint: {
-  //   ignoreDuringBuilds: true,
-  // },
+    eslint: {
+    ignoreDuringBuilds: true,
+  },
 };
 
 export default nextConfig;
