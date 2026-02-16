@@ -4,7 +4,7 @@ import { useState } from 'react';
 import Footer from './footer';
 const inter = Inter({ subsets: ['latin'] })
 export default function CoffeePicker(){
-    let [prefrence, setPrevrence] = useState(null);
+    const [prefrence, setPrevrence] = useState(null);
     const [bean, setBean] = useState(null);
     const [amount, setAmount] = useState(null);
     const [grind, setGrind] = useState(null);
