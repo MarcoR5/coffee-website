@@ -20,9 +20,9 @@ export default function Footer(){
         </div>
        {/* logos */}
         <div className="flex pr-10 space-x-5">
-            <img src="/facebook.png" width={50} height={50} alt="" />
-            <img src="/instagram.png" width={50} height={50} alt="" />
-            <img src="/x.png" width={50} height={50} alt="" />
+            <img src="./facebook.png" width={50} height={50} alt="" />
+            <img src="./instagram.png" width={50} height={50} alt="" />
+            <img src="./x.png" width={50} height={50} alt="" />
           
         </div>
       
