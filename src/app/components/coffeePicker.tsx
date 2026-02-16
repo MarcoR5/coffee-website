@@ -1,9 +1,9 @@
 'use client'
 import { Inter } from 'next/font/google'
 import { useState } from 'react';
-import Footer from './footer';
-const inter = Inter({ subsets: ['latin'] })
 export default function CoffeePicker(){
+    const inter = Inter({ subsets: ['latin'] })
+
     const [prefrence, setPrevrence] = useState(null);
     const [bean, setBean] = useState(null);
     const [amount, setAmount] = useState(null);
